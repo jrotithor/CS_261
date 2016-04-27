@@ -1,0 +1,21 @@
+1. For 16 items, 24 cost units are spent. This is because 8 are used up to fill up the initial array.
+Then, 8 units are needed to copy each individual element into a new array of size 16. Then 8 more are required to fill up this new array.
+For 32 items, 56 cost units are spent. This is because 8 are used up to fill up the initial array.
+Then, 8 units are needed to copy each individual element into a new array of size 16. 
+Then 8 more are required to fill up this new array, so for the first 16, 24 cost units are used up.
+then, 16 units are required to copy each indivudual element into an array of size 32.
+Then, 16 more elements are required to fill up this new array.
+As the number of pushes grows large, the complexity of the algorithm is O(1+), since doubling does not occur very often due to most of the
+ operations being addition operations rather than resizing operations.
+
+2. for 16 items, 60 cost units are spent. this is because 8 are needed to fill the first array, 10 for the second(including the copying), 
+12 for the 3rd, 14 for the 4th, and 16 for the final one. 8+10+12+14+16 = 60.
+for 32 items, 260 cost units are spent. this is because 8+10+12+14+16+18+20+...+30+32 = 260. 
+The complexity of the algorithm here is O(n), since the number of size increases is a lot larger here than in the previous scenario.
+
+
+3. A sequence of N push and pop operations that would result in O(n^2) execution time would be one where enough elements are added to the array such 
+that the capacity of the array  needs to be doubled, and then immdediately after that, an element would be popped from the array, so the capacity of
+the array would then need to be halved. To get around this, I would make it such that the capacity of the array would need to be halved when the array
+is only 1/4 filled, so that the needless resizing will not occur and much fewer cost units will be wasted in the long run. Also, shrinking the array 
+is not as critical of an operation as increasing the size is, since there are no big problems from having an array that is too large.

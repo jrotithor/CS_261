@@ -1,0 +1,140 @@
+#+1441397650
+grep roomba main_roomba.cpp
+#+1441404701
+top
+#+1441406324
+ls -t
+#+1441474598
+jobs
+#+1441482363
+ls -l
+#+1441647964
+ls | grep roomba main_roomba.cpp
+#+1441651401
+cat main_roomba.cpp
+#+1441651407
+grep room main_roomba.cpp
+#+1441661964
+man grep
+#+1443397343
+cd
+#+1443397349
+mkdir public_html
+#+1443398033
+mkdir cs_290
+#+1443398048
+mv index.html cs_290
+#+1443467024
+cd cs_290
+#+1443467077
+vim index.html
+#+1443474822
+ls -a
+#+1443474827
+ls -alt
+#+1443575495
+touch Q0.c
+#+1443575502
+touch Q1.c Q2.c
+#+1443575524
+touch Q3.c Q4.c Q5.c
+#+1443575538
+touch makefile
+#+1443575548
+cat Q0.c
+#+1443575555
+cat new1.txt
+#+1443575564
+cat garbage.py
+#+1443577008
+gcc Q0.c
+#+1443650694
+mkdir CS261
+#+1443650708
+mkdir Rec1
+#+1443650722
+mkdir Temp
+#+1443650749
+rmdir Temp
+#+1443650871
+cat info.txt
+#+1443650884
+cp info.txt CS261
+#+1443650957
+vim info.txt
+#+1443650963
+emacs info.txt
+#+1443651103
+history
+#+1443651167
+cd Rec1
+#+1443651178
+rm -f CS261
+#+1443651188
+rm -f info.txt
+#+1443651198
+rm -f #info.txt#
+#+1443651496
+cd ..
+#+1443651498
+gcc -Wall -std=c99 Q0.c
+#+1443651504
+cd CS261
+#+1443664568
+./Q1.c
+#+1443664570
+./Q1
+#+1443664947
+gcc -Wall -std=c99 Q1.c
+#+1443667386
+gcc Q2.c
+#+1443668285
+gcc Q3.c
+#+1443746814
+gcc Q1.c
+#+1443755765
+gcc -g Q3.c
+#+1443755774
+gcc -g Q2.c
+#+1443755795
+gcc -g Q0.c
+#+1443755819
+gcc -g Q1.c
+#+1443761400
+gcc -g Q4.c
+#+1443762187
+gdb ./a.out
+#+1443763110
+gcc -g Q5.c
+#+1443805654
+gcc -Wall -g Q3.c
+#+1443805670
+gcc -Wall -g Q2.c
+#+1443805971
+gcc -Wall -g Q5.c
+#+1443814118
+gcc -Wall -g Q4.c
+#+1443814196
+gcc -Wall -g Q1.c
+#+1443814284
+gcc -Wall -g Q0.c
+#+1443814286
+./a.out
+#+1443820189
+cd public_html
+#+1443820191
+cd CS290
+#+1443820198
+cd cs290
+#+1443820296
+touch a2.htm
+#+1443820302
+rm -f touch a2.htm
+#+1443820304
+touch a2.html
+#+1443820322
+rm -f a2.html
+#+1443820325
+touch a1.html
+#+1443820327
+ls
